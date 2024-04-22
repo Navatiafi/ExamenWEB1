@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: rgb(8, 8, 8);
+  position: sticky;
+  top: 0%;
+}
+
+.nav-links a {
+  color: #fff;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo h1 {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  color:white;
+  margin-top: 5px;
+}
+.logo img{
+  height: 1.5cm;
+  width: 2cm;
+}
+
+.menu {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+}
+
+.menu li:hover {
+  background-color: darkgoldenrod;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.menu li {
+  padding: 5px 14px;
+}
+
+.menu li a.active {
+  color: darkgoldenrod;
+}
+
+
+
+.picture {
+  background-image: url('./Images/U-7.jpg');
+  background-size: cover; 
+  background-position: center;
+  opacity: 0.6;
+  height: 100%;
+}
+
+
+.navigation {
+  background-color: rgba(17, 17, 17, 0.5); 
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .navbar.active .nav-links {
+    display: flex;
+  }
+  .menu {
+    display: flex; 
+    flex-direction: column;
+    gap: 10px;
+  }
+  .menu li {
+    padding: 10px 20px;
+  }
+  .logo {
+    margin-bottom: 20px;
+  }
+  .clubOfCity{
+    visibility: hidden;
+  }
+  }
+
+/* Default page */
+.values {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  margin-top: 3cm;
+  margin-left: 2cm;
+  line-height: 1.5;
+  max-width: 40%;
+  gap: 2;
+  text-shadow: #fff;
+  color: white;
+}
+
+.values p {
+  margin-bottom: 10px; 
+}
+
+.boutton-home {
+  display: flex;
+  flex-direction: row;
+  gap: 1cm;
+  margin-left: 2cm;
+  margin-top: 2cm;
+}
+
+.about,
+.contact-us {
+  display: inline-block; 
+  padding: 10px 20px; 
+  font-size: 16px; 
+  text-decoration: none; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+  border-radius: 20px;
+  width: 150px;
+  height: 45px;
+  text-align: center;
+}
+
+.about {
+  background-color: #007bff; 
+  color: #fff;
+}
+
+.contact-us {
+  background-color: transparent; 
+  color: #0056b3;
+  border: 1px solid #0056b3; 
+}
+
+.about:hover,
+.contact-us:hover {
+  background-color: #0056b3; 
+  color: #fff;
+}
+
+/*style pour le service*/
+
+.main-heading {
+  font-size: 3em;
+  text-transform: uppercase;
+  color:rgb(248, 222, 157);
+  -webkit-text-stroke: 0.9px #0056b3; 
+  padding: 0.1em;
+}
