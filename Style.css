@@ -65,7 +65,7 @@ li {
 }
 
 .menu li a.active {
-  color: darkgoldenrod;
+  color: white
 }
 
 
@@ -178,4 +178,41 @@ li {
   color:rgb(248, 222, 157);
   -webkit-text-stroke: 0.9px #0056b3; 
   padding: 0.1em;
+}
+.service{
+  text-align: center;
+  align-items: center;
+  margin-top: 1cm;
+}
+
+.space{
+  height: 3cm;
+}
+
+
+.details {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  margin-top: 1cm;
+}
+
+.club{
+  width:30vw;
+  border-radius: 10px;
+}
+
+.description{
+  max-width: 50vw;
+  margin-top: 1cm;
+  text-align: justify;
+}
+
+.categories {
+  font-family: Arial, sans-serif; 
+  font-size: 2em; 
+  color: #333; 
+  text-transform: uppercase;
+  text-align: center; 
+  margin-bottom: 20px; 
 }
