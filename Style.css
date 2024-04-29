@@ -216,3 +216,54 @@ li {
   text-align: center; 
   margin-bottom: 20px; 
 }
+
+/*about*/
+
+.company-info{
+  text-align: justify;
+}
+
+
+.about-section {
+  background-color: #f9f9f9;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.about-section h1 {
+  color: #0056b3;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  color: #333;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.company-info {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.company-info h2 {
+  color: #0056b3;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.company-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.company-info ul li {
+  color: #333;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
